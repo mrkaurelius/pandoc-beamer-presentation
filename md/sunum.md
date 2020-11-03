@@ -29,7 +29,26 @@ printf("merhaba yalan dunya");
 
 \center The slide syntax is so simple that you can quickly create a handful of slides on basically any device in any editor. E.g. on your mobile on the way to the meeting where you need the slides. Right before the meeting starts you use pandoc to create the actual slides from your source.
 
-# Sources
+
+### Formatting
+#### Table
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:| 
+|  12   |  12  |  12     |   12   | 
+| 123   |  123 |   123   |  123   | 
+|   1   |    1 |     1   |    1   | 
+|   1   |    1 |     1   |    1   | 
+|   1   |    1 |     1   |    1   | 
+|   1   |    1 |     1   |    1   | 
+
+### Formatting
+#### This is a block!
+
+- Here is some content.
+- Here's more contents.
+
+---
+
 
 ### Sources 
 * https://geekoverdose.wordpress.com/2018/12/10/2628/

@@ -8,6 +8,8 @@ install dependencies and simply
 
 ```bash
 make # compiles all md files ind ./src folder
+# generated pdf could be presented with pdfpc
+make present
 ```
 
 ## Dependencies
@@ -15,7 +17,7 @@ make # compiles all md files ind ./src folder
 Debian 10 Buster dependencies
 
 ```bash
-$ sudo apt install texlive-full pandoc
+$ sudo apt install make texlive texlive-pictures pandoc pdfpc
 ```
  
 I am not sure about dependencies maybe installing texlive-full is unnecessary or some other packages may be necessary.

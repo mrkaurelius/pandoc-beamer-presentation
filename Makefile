@@ -7,3 +7,6 @@ all:
 		pandoc -t beamer md/$$src.md -o pdf/$$src.pdf --slide-level=3 ; \
 	done
 
+# TODO ...
+present: \
+  $(shell pdfpc pdf/sunum.pdf)
